@@ -1,7 +1,7 @@
 def count_increases():
 
     lines = []
-    with open("./resources/day1input.txt") as file:
+    with open("../resources/day1input.txt") as file:
         lines = file.readlines()
 
     increases = 0
@@ -17,7 +17,7 @@ def count_increases():
 def count_triple_increases():
 
     lines = []
-    with open("./resources/day1input.txt") as file:
+    with open("../resources/day1input.txt") as file:
         lines = file.readlines()
 
     increases = 0

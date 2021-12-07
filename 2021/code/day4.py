@@ -14,7 +14,7 @@ def read_file():
     global numbers  # Gross!
     global boards  # Ew!
     lines = []
-    with open("./resources/day4input.txt") as file:
+    with open("../resources/day4input.txt") as file:
         lines = file.readlines()
 
     for idx in range(len(lines)):

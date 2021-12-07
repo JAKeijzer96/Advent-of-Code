@@ -1,6 +1,6 @@
 def calc_power_consumption():
     lines = []
-    with open("./resources/day3input.txt") as file:
+    with open("../resources/day3input.txt") as file:
         lines = file.readlines()
 
     for line in lines:
@@ -24,7 +24,7 @@ def calc_power_consumption():
 
 def calc_life_support(most_common = True):
     lines = []
-    with open("./resources/day3input.txt") as file:
+    with open("../resources/day3input.txt") as file:
         lines = file.readlines()
     for idx in range(len(lines)):
         lines[idx] = lines[idx].rstrip("\n")

@@ -4,7 +4,7 @@ board = [["." for i in range(1000)] for j in range(1000)]
 
 def read_file():
     lines = []
-    with open("./resources/day5input.txt") as file:
+    with open("../resources/day5input.txt") as file:
         lines = file.readlines()
 
     for idx in range(len(lines)):

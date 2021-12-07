@@ -1,6 +1,6 @@
 def navigate():
     lines = []
-    with open("./resources/day2input.txt") as file:
+    with open("../resources/day2input.txt") as file:
         lines = file.readlines()
 
     forward = 0
@@ -17,7 +17,7 @@ def navigate():
 
 def navigate_v2():
     lines = []
-    with open("./resources/day2input.txt") as file:
+    with open("../resources/day2input.txt") as file:
         lines = file.readlines()
 
     forward = 0

@@ -1,6 +1,6 @@
 def read_file():
     lines = []
-    with open("./resources/day7input.txt") as file:
+    with open("../resources/day7input.txt") as file:
         lines = file.readlines()
     
     first_line = [int(x) for x in lines[0].rstrip("\n").split(",")]
