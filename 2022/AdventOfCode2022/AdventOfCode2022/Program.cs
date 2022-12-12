@@ -7,7 +7,7 @@ public static class Program
 {
     static void Main(string[] args)
     {
-        PuzzleSolution puzzleSolution = new Dag9();
+        PuzzleSolution puzzleSolution = new Dag10();
         puzzleSolution.SolvePart1();
         puzzleSolution.SolvePart2();
     }
