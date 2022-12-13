@@ -3,24 +3,10 @@ using AdventOfCode2022.Util;
 
 namespace AdventOfCode2022.PuzzleSolutions;
 
-public class Dag8 : PuzzleSolution
+public class Dag08 : PuzzleSolution
 {
     private int[,] _arr = null!;
     private int _lineLength;
-    
-    private void ReadFileInto2DArray()
-    {
-        var lines = File.ReadAllLines("../../../Input/Dag08.txt");
-        _lineLength = lines[0].Length;
-        _arr = new int[_lineLength, _lineLength];
-        for (var row = 0; row < _lineLength; row++)
-        {
-            for (var col = 0; col < _lineLength; col++)
-            {
-                _arr[row, col] = lines[row][col] - '0';
-            }
-        }
-    }
     
     public void SolvePart1()
     {
@@ -157,4 +143,17 @@ public class Dag8 : PuzzleSolution
         Console.WriteLine($"Highest scenic score: {highestScenicScore}");
     }
 
+    private void ReadFileInto2DArray()
+    {
+        var lines = File.ReadAllLines("../../../Input/Dag08.txt");
+        _lineLength = lines[0].Length;
+        _arr = new int[_lineLength, _lineLength];
+        for (var row = 0; row < _lineLength; row++)
+        {
+            for (var col = 0; col < _lineLength; col++)
+            {
+                _arr[row, col] = lines[row][col] - '0';
+            }
+        }
+    }
 }

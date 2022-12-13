@@ -2,7 +2,7 @@
 
 namespace AdventOfCode2022.PuzzleSolutions;
 
-public class Dag1 : PuzzleSolution
+public class Dag01 : PuzzleSolution
 {
     public void SolvePart1()
     {

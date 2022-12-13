@@ -3,7 +3,7 @@ using AdventOfCode2022.Util;
 
 namespace AdventOfCode2022.PuzzleSolutions;
 
-public class Dag5 : PuzzleSolution
+public class Dag05 : PuzzleSolution
 {
     public void SolvePart1()
     {
